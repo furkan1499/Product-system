@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import BasicMenu from './components/BasicMenu';
+import ResponsiveAppBar from './components/ResponsiveAppBar';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BasicMenu />
+    <ResponsiveAppBar />
     <App />
   </React.StrictMode>,
   document.getElementById('root')
