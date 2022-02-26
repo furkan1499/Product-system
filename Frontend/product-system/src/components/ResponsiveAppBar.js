@@ -8,8 +8,8 @@ import Button from '@mui/material/Button';
 
 const ResponsiveAppBar = () => {
     return (
-        <AppBar position="static">
-            <Container maxWidth="xl">
+        <AppBar style={{ backgroundColor: 'rgb(63, 80, 181)', width: '100%' }}>
+            <Container maxWidth="lg">
                 <Toolbar disableGutters>
                     <Typography
                         variant="h6"

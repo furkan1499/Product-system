@@ -6,7 +6,9 @@ import ResponsiveAppBar from './components/ResponsiveAppBar';
 ReactDOM.render(
   <React.StrictMode>
     <ResponsiveAppBar />
-    <App />
+    <div className='Container'>
+      <App />
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
