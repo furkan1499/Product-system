@@ -1,2 +1,2 @@
 # Product-system
-Abp framework and react simple project. Hello
+Abp framework and react simple project.
